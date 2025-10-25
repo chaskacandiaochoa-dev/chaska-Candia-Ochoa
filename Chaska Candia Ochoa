@@ -158,7 +158,8 @@
       <div class="dropdown">
         <button class="dropdown-btn" onclick="toggleDropdown()">Ver Compañeros</button>
         <div class="dropdown-content" id="dropdown-list">
-          <a href="https://www.linkedin.com/in/grecia-mu%C3%B1oz-ventura-725ab4385/" target="_blank">Grecia Arianne Consuelo Muñoz Ventura</a>
+          <a href="https://share.google/OFWbj6JCxuD5o8LWj" target="_blank">Grecia Arianne Consuelo Muñoz Ventura</a>
+          <a href="https://share.google/kfdzaKEaXs7OEJVtG" target="_blank">Angueli Briyith Calderon Ccama</a>
           <a href="https://www.linkedin.com/in/traicy-pacco-colque-01469b386/" target="_blank">Traicy Pacco Colque</a>
           <a href="https://www.linkedin.com/in/adamary-gabriela-huarca-bustamante-860b61385/" target="_blank">Adamary Gabriela Huarca Bustamante</a>
           <a href="https://www.linkedin.com/in/marilyn-shiomara-deza-ccama-b7a191335/" target="_blank">Shiomara Deza Ccama</a>
