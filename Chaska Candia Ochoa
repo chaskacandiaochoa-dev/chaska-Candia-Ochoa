@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keyword" content="Chaska Candia Ochoa" />
+  <title>Chaska Candia Ochoa</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #E0F7FA;
+      color: #0277BD;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #00ACC1;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+      max-width: 900px;
+      width: 90%;
+      margin: 20px 0;
+    }
+
+    section {
+      background-color: #ffffff;
+      border-left: 5px solid #4DD0E1;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #007C91;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
+    a {
+      color: #0288D1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #004D40;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    /* Dropdown */
+    .dropdown {
+      margin-top: 10px;
+    }
+
+    .dropdown-btn {
+      background-color: #4DD0E1;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .dropdown-btn:hover {
+      background-color: #00ACC1;
+    }
+
+    .dropdown-content {
+      display: none;
+      margin-top: 10px;
+      background-color: #E0F7FA;
+      border-radius: 6px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-content a {
+      display: block;
+      margin: 5px 0;
+    }
+
+    .show {
+      display: block;
+    }
+
+    footer {
+      background-color: #00ACC1;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      width: 100%;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Chaska Candia Ochoa</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Biografía</h2>
+      <p>
+        Hola, mi nombre es <strong>Chaska Candia Ochoa</strong>, tengo 19 años. Actualmente soy estudiante en la 
+        <a href="https://ucsp.edu.pe/" target="_blank">Universidad Católica San Pablo (UCSP)</a> 
+        de Arequipa, Perú. Me encuentro en el III semestre de la carrera de 
+        <a href="https://ucsp.edu.pe/facultad-de-ciencias-economicas-y-empresariales/carrera-de-contabilidad/" target="_blank">Contabilidad</a>.
+      </p>
+    </section> 
+
+    <section id="cursos">
+      <h2>Cursos</h2>
+      <ul>
+        <li>Antropología I</li>
+        <li>Comunicación II</li>
+        <li>Contabilidad II</li>
+        <li>Cálculo en una variable</li>
+        <li>Filosofía de la Naturaleza</li>
+        <li>Pensamiento computacional</li>
+      </ul>
+    </section>
+
+    <section id="docentes">
+      <h2>Perfiles de mis docentes</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/maribel-marianela-8453a61a7/" target="_blank">Maribel Marianela Quiroz Zegarra</a></li>
+        <li><a href="https://www.linkedin.com/in/ecuadrosv" target="_blank">Ernesto Cuadros Vargas</a></li>
+        <li><a href="https://www.linkedin.com/in/jos%C3%A9-luis-begazo-de-latorre-99b53959/" target="_blank">José Luis Begazo de la Torre</a></li>
+        <li><a href="mailto:ggarciaj@ucsp.edu.pe">Giovanna María García Jarufe</a></li> 
+        <li><a href="mailto:Ivalenciag@ucsp.edu.pe">Lizet del Carmen Valencia Guillén</a></li>
+        <li><a href="mailto:dlmatto@ucsp.edu.pe">David Luis Matto Neyra</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="dropdown">
+        <button class="dropdown-btn" onclick="toggleDropdown()">Ver Compañeros</button>
+        <div class="dropdown-content" id="dropdown-list">
+          <a href="https://www.linkedin.com/in/grecia-mu%C3%B1oz-ventura-725ab4385/" target="_blank">Grecia Arianne Consuelo Muñoz Ventura</a>
+          <a href="https://www.linkedin.com/in/traicy-pacco-colque-01469b386/" target="_blank">Traicy Pacco Colque</a>
+          <a href="https://www.linkedin.com/in/adamary-gabriela-huarca-bustamante-860b61385/" target="_blank">Adamary Gabriela Huarca Bustamante</a>
+          <a href="https://www.linkedin.com/in/marilyn-shiomara-deza-ccama-b7a191335/" target="_blank">Shiomara Deza Ccama</a>
+          <a href="https://www.linkedin.com/in/brenda-angela-ramos-allca-a20282386/" target="_blank">Brenda Angela Ramos Allca</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        📧 <strong>Correo electrónico:</strong> 
+        <a href="mailto:Chaska.Candia@ucsp.edu.pe">Chaska.Candia@ucsp.edu.pe</a><br>
+        🔗 <strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/chaska-candia-ochoa-277079386/" target="_blank">Mi perfil de LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Chaska Candia Ochoa. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleDropdown() {
+      document.getElementById("dropdown-list").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
